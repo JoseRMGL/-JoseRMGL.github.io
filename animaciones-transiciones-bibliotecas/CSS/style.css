@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
 @import 'animate.css';
+
 body {
   background: #eaeef6;
   font-family: "Open Sans", sans-serif;
@@ -23,6 +24,9 @@ body {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.09);
 }
 
+.titulo {
+  text-align: center;
+}
 
 .navbar__link {
   position: relative;
@@ -259,7 +263,8 @@ body {
   }
 }
 
-.navbar__item:first-child:nth-last-child(5):last-child:hover:before, .navbar__item:first-child:nth-last-child(5) ~ li:last-child:hover:before {
+.navbar__item:first-child:nth-last-child(5):last-child:hover:before,
+.navbar__item:first-child:nth-last-child(5)~li:last-child:hover:before {
   top: 80%;
   animation: gooeyEffect-5 250ms 1;
 }
@@ -374,7 +379,7 @@ body {
 }
 
 .animacion6 {
-  animation: animacion6 2.5s infinite ;
+  animation: animacion6 2.5s infinite;
 }
 
 @keyframes animacion6 {
@@ -496,26 +501,14 @@ body {
   transition: 2s;
 }
 
-.transicion5:hover {
-  
-}
+.transicion5:hover {}
 
-.transicion6:hover {
-  
-}
+.transicion6:hover {}
 
-.transicion7:hover {
-  
-}
+.transicion7:hover {}
 
-.transicion8:hover {
-  
-}
+.transicion8:hover {}
 
-.transicion9:hover {
-  
-}
+.transicion9:hover {}
 
-.transicion10:hover {
-  
-}
+.transicion10:hover {}
